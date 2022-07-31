@@ -80,7 +80,7 @@ class PlantDetailFragment : Fragment() {
             if (plant == null) {
                 ""
             } else {
-                getString(R.string.share_text_plant, plant.name)
+                getString(R.string.share_text_plant, plant.name, getString(R.string.app_name), getString(R.string.app_version) )
             }
         }
         val shareIntent = ShareCompat.IntentBuilder.from(requireActivity())
