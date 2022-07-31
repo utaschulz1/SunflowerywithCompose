@@ -16,12 +16,14 @@
 
 <resources>
 
-    <!-- Resources that do not require translation -->
+    <!-- DO NOT TRANSLATE Resources that do not require translation -->
     <string name="app_name" translatable="false">Sunflowery</string>
     <string name="app_version" translatable="false">2.1</string>
 
     <!-- Translatable resources -->
+    <!-- Uta has ammended this description: The label for the menu item to filter the displayed plants by grow zone. -->
     <string name="menu_filter_by_grow_zone" translation_description="Uta has ammended this description: The label for the menu item to filter the displayed plants by grow zone.">Filter by grow zone</string>
+    <!-- Title for the 'My garden' screen where the user can see the list of plants that have been added to their garden. -->
     <string name="my_garden_title" devnotes="in Weblate by default XML comment placed before the string element, parsed as a source string description" translation_description="Title for the 'My garden' screen where the user can see the list of plants that have been added to their garden.">My garden</string>
     <string name="plant_list_title" devnotes="make it 2 words max (thx, Uta)" translation_description="Title for the plant list screen where the user can see a list of plants available to add to their garden.">Plant list</string>
     <string name="available" translation_description="Text for the header of the plant list page indicating the available plants for users to choose from.">Available Plants</string>
